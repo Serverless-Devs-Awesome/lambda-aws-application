@@ -1,0 +1,17 @@
+MyFunctionDemo:
+  Component: lambda
+  Provider: aws
+  Properties:
+    Region: ap-southeast-1
+    Function:
+      Code: ./index.js
+      Name: aws-lambda-dome
+      Handler: index.handler
+      Runtime: nodejs12.x
+      Description: Test
+    Events:
+      - Name: api-sdk
+        Type: Api
+        Properties:
+          Path: /DynamoDBOperations/DynamoDBManager
+          Method: ANY
