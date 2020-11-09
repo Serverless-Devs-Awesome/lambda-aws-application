@@ -13,5 +13,5 @@ MyFunctionDemo:
       - Name: api-sdk
         Type: Api
         Properties:
-          Path: /DynamoDBOperations/DynamoDBManager
+          Path: /test/test
           Method: ANY
