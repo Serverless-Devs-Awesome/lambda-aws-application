@@ -2,7 +2,7 @@ Type: Application
 Name: nodejs12.x-http
 Provider:
   - AWS
-Version: 0.0.2
+Version: 0.0.3
 Description: 快速的将项目部署到Lambda。
 HomePage: https://github.com/Serverless-Devs/lambda-aws-component/
 Tags:
