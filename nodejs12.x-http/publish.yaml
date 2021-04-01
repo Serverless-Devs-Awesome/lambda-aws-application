@@ -11,3 +11,11 @@ Tags:
   - AWS
   - Nodejs12.x
 Category: 新手入门
+Service:
+  函数计算:
+    Authorities:
+      - 创建函数
+      - 删除函数
+      - 创建服务
+      - 删除服务
+    Runtime: Node.JS
